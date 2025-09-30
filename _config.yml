@@ -7,14 +7,14 @@ first_name: Guzel
 middle_name:
 last_name: Ishmaeva
 contact_note: >
-  Fifth-year Ph.D. Candidate in Economics at New York University.
+  Sixth-year Ph.D. Candidate in Economics at New York University.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Research in empirical industrial organization, applied microeconomics, and media economics.
 footer_text: >
   © 2025 Guzel Ishmaeva · Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>
   with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme ·
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: economics, empirical IO, industrial organization, media, PhD, NYU
+keywords: economics, empirical IO, industrial organization, media
 lang: en
 icon: 🎓
 
@@ -44,7 +44,7 @@ max_width: 930px
 author:
   name: "Guzel Ishmaeva"
   avatar: "assets/img/avatar.jpg"
-  bio: "Fifth-year Ph.D. Candidate in Economics at New York University. Research in empirical IO, applied micro, and media economics."
+  bio: "Ph.D. Candidate in Economics at New York University"
   email: "gvi2002@nyu.edu"
   linkedin: "guzelishmaeva"
   cv: "assets/pdf/CV.pdf"
