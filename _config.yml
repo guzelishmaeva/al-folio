@@ -4,24 +4,38 @@
 
 title: Guzel Ishmaeva
 first_name: Guzel
+middle_name:
 last_name: Ishmaeva
 contact_note: >
   Fifth-year Ph.D. Candidate in Economics at New York University.
-description: >
+description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Research in empirical industrial organization, applied microeconomics, and media economics.
 footer_text: >
   © 2025 Guzel Ishmaeva · Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>
   with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme ·
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>
-keywords: economics, empirical IO, industrial organization, media
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+keywords: economics, empirical IO, industrial organization, media, PhD, NYU
 lang: en
 icon: 🎓
 
-# IMPORTANT: for preview site
-url: "https://guzelishmaeva.github.io"
-baseurl: "/alfolio-preview"
-
+url: https://guzelishmaeva.github.io
+baseurl: /alfolio-preview
+last_updated: false
 back_to_top: true
+
+# -----------------------------------------------------------------------------
+# Theme
+# -----------------------------------------------------------------------------
+
+navbar_fixed: true
+footer_fixed: true
+search_enabled: false
+socials_in_search: false
+posts_in_search: false
+bib_search: false
+
+# Dimensions
+max_width: 930px
 
 # -----------------------------------------------------------------------------
 # Author / Socials
@@ -29,11 +43,49 @@ back_to_top: true
 
 author:
   name: "Guzel Ishmaeva"
+  avatar: "assets/img/avatar.jpg"
+  bio: "Fifth-year Ph.D. Candidate in Economics at New York University. Research in empirical IO, applied micro, and media economics."
   email: "gvi2002@nyu.edu"
   linkedin: "guzelishmaeva"
-  cv: "assets/pdf/CV.pdf"   # put your CV here
-  avatar: "assets/img/avatar.jpg"
-  bio: "Sixth-year Ph.D. Candidate in Economics at New York University. Research in empirical IO, applied micro, and media economics."
+  cv: "assets/pdf/CV.pdf"
+
+# -----------------------------------------------------------------------------
+# Blog (disabled)
+# -----------------------------------------------------------------------------
+
+blog_name:
+blog_description:
+permalink: /blog/:year/:title/
+
+pagination:
+  enabled: false
+
+related_blog_posts:
+  enabled: false
+
+# -----------------------------------------------------------------------------
+# Newsletter (disabled)
+# -----------------------------------------------------------------------------
+
+newsletter:
+  enabled: false
+
+# -----------------------------------------------------------------------------
+# Collections (disabled unless you add later)
+# -----------------------------------------------------------------------------
+
+collections: {}
+
+# -----------------------------------------------------------------------------
+# Jekyll Scholar (disabled)
+# -----------------------------------------------------------------------------
+
+scholar:
+  last_name: [Ishmaeva]
+  first_name: [Guzel]
+  source: /_bibliography/
+  bibliography: none.bib
+  query: ""
 
 # -----------------------------------------------------------------------------
 # Features
@@ -47,15 +99,7 @@ enable_math: true
 enable_progressbar: true
 
 # -----------------------------------------------------------------------------
-# Disable unused collections/blog
-# -----------------------------------------------------------------------------
-
-collections: {}
-blog_name: 
-blog_description:
-
-# -----------------------------------------------------------------------------
-# Minimal third-party libraries (must exist for build to pass)
+# Third-party libraries (must exist)
 # -----------------------------------------------------------------------------
 
 third_party_libraries:
@@ -69,4 +113,5 @@ third_party_libraries:
     version: "4.4.1"
     url:
       js: "https://cdn.jsdelivr.net/npm/chart.js@{{version}}/dist/chart.umd.min.js"
+
 
